@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vantage-ui-2/static/css/main.a549f898.chunk.css",
+    "main.js": "/vantage-ui-2/static/js/main.7ded12b3.chunk.js",
+    "main.js.map": "/vantage-ui-2/static/js/main.7ded12b3.chunk.js.map",
+    "runtime-main.js": "/vantage-ui-2/static/js/runtime-main.88369300.js",
+    "runtime-main.js.map": "/vantage-ui-2/static/js/runtime-main.88369300.js.map",
+    "static/js/2.186fb6f5.chunk.js": "/vantage-ui-2/static/js/2.186fb6f5.chunk.js",
+    "static/js/2.186fb6f5.chunk.js.map": "/vantage-ui-2/static/js/2.186fb6f5.chunk.js.map",
+    "index.html": "/vantage-ui-2/index.html",
+    "precache-manifest.0efcc22d61eca442474274995b1069f4.js": "/vantage-ui-2/precache-manifest.0efcc22d61eca442474274995b1069f4.js",
+    "service-worker.js": "/vantage-ui-2/service-worker.js",
+    "static/css/main.a549f898.chunk.css.map": "/vantage-ui-2/static/css/main.a549f898.chunk.css.map",
+    "static/js/2.186fb6f5.chunk.js.LICENSE.txt": "/vantage-ui-2/static/js/2.186fb6f5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88369300.js",
+    "static/js/2.186fb6f5.chunk.js",
+    "static/css/main.a549f898.chunk.css",
+    "static/js/main.7ded12b3.chunk.js"
+  ]
+}
