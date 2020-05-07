@@ -1,0 +1,61 @@
+@import "../../../partials/colors";
+  
+@mixin container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 11.25rem;
+  flex-grow: 1;
+}
+
+.active{
+  @include container();
+  background: $background;
+  color: $main-green;
+}
+
+.inactive{
+  @include container();
+  background: rgba(0,98,85,.25);
+  color: $dark-green;
+}
+
+.tab{
+  padding: .875rem 2.5rem;
+  width: 100%;
+  font-size: 1.125rem;
+  border: none;
+  background: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  span{
+    margin-right: .5rem;
+  }
+}
+
+.close{
+  padding: .2rem;
+  border-radius: 50%;
+  position: absolute;
+  right: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.close:hover{
+  background: rgba(0,0,0,.1);
+}
+
+@media screen and (max-width: 25rem){
+  .tab{
+    padding: .875rem 2.5rem .875rem .875rem;
+    span{
+      display: none;
+    }
+  }
+}

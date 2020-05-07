@@ -1,0 +1,9 @@
+@import "../../partials/colors";
+
+.tabContainer{
+    background: $main-green;
+    padding-top: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }

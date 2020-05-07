@@ -1,0 +1,25 @@
+@import "../../../partials/colors";
+
+.action{
+    width: 50%;
+    border: none;
+    padding: .8125rem;
+    display: flex;
+    align-items: center;
+    font-size: .8125rem;
+    color: $text-dark-gray;
+    background: white;
+  }
+
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+  }
+
+  @media screen and (max-width: 25rem){
+    .icon{
+      margin: 0 .5rem;
+    }
+  }

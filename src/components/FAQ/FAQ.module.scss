@@ -1,0 +1,45 @@
+@import "../../partials/colors";
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    position: relative;
+    div{
+        position: absolute;
+        right: .6rem;
+        display: flex;
+        align-items: center;
+    }
+    input{
+        padding: 5px 10px;
+        border-radius: 15px;
+        border: 1px solid $outline;
+    }
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid $text-gray;
+    padding: .6rem 0;
+}
+
+.left{
+    flex-grow: 1;
+    h4{
+        margin-bottom: .6rem;
+        color: $dark-green;
+    }
+    p{
+        margin: 0;
+    }
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}

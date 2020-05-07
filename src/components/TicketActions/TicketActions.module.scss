@@ -1,0 +1,28 @@
+@import "../../partials/colors";
+
+.actions{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid $outline;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .vertical{
+    position: absolute;
+    background: $outline;
+    width: 1px;
+    top: 1rem;
+    bottom: 1rem;
+    left: 50%;
+  }
+  
+  .horizontal{
+    position: absolute;
+    background: $outline;
+    height: 1px;
+    left: 1rem;
+    right: 1rem;
+    top: 50%;
+  }

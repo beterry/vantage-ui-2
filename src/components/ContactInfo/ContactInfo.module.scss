@@ -1,0 +1,72 @@
+@import "../../partials/colors";
+
+.contactInfo{
+    table{
+        border-collapse: collapse;
+        font-size: .625rem;
+        width: 100%;
+        color: $text-dark-gray;
+    }
+    th{
+        text-align: left;
+    }
+}
+
+  
+.contact{
+    tbody{
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px solid $outline;
+    }
+    tr{
+        width: 50%;
+        display: flex;
+        padding: .25rem 0;
+        border-bottom: 1px solid $outline;
+        th{
+        width: 30%;
+        }
+        td{
+        width: 70%;
+        }
+    }
+}
+  
+.history{
+    tr{
+        display: flex;
+        padding: .25rem 0;
+        border-bottom: 1px solid $outline;
+        :last-child{
+        width: 50%;
+        }
+        :nth-child(-n+2){
+        width: 25%;
+        }
+    }
+}
+
+@media screen and (max-width: 50rem){
+    .contact{
+        tr{
+            width: 100%;
+            th{
+                width: 50%;
+            }
+            td{
+                width: 50%;
+            }
+        }
+    }
+    .history{
+        tr{
+            :first-child{
+                width: 40%
+            }
+            :nth-child(2), :last-child{
+                width: 30%;
+            }
+        }
+    }
+}

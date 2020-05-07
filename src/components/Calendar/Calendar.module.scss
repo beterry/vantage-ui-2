@@ -1,0 +1,35 @@
+@import '../../partials/colors';
+
+.calendar{
+    display: flex;
+    align-items: center;
+    border: 1px solid $outline;
+    border-radius: 5px;
+    background: white;
+    overflow: hidden;
+    input{
+        border: none;
+    }
+}
+
+.inputText{
+    width: auto;
+    flex-grow: 1;
+    font-size: .8125rem;
+    color: $text-dark-gray;
+    font-weight: 700;
+}
+
+.inputDate{
+    width: auto;
+    overflow: visible;
+}
+
+.icon{
+    width: .875rem;
+    height: .875rem;
+    background: $text-gray;
+    border-radius: 3px;
+    margin: 0 1rem;
+    flex-shrink: 0;
+}

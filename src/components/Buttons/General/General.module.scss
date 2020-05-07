@@ -1,0 +1,13 @@
+@import "../../../partials/colors";
+
+.general{
+    border: none;
+    background: $main-green;
+    padding: .8125rem;
+    border-radius: 3px;
+    color: white;
+    font-size: .875rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }

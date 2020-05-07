@@ -1,0 +1,23 @@
+@import "../../../partials/colors";
+
+@mixin tab-section{
+    padding: .875rem;
+    font-size: .875rem;
+    border-right: 1px solid $outline;
+    border-top: 1px solid $outline;
+    border-left: none;
+    border-bottom: none;
+    flex-grow: 1;
+    max-width: 11.25rem;
+    color: $text-gray;
+  }
+  
+  .inactive{
+    @include tab-section();
+    background: $tab-gray;
+  }
+  
+  .active{
+    @include tab-section();
+    background: white;
+  }

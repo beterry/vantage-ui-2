@@ -1,0 +1,16 @@
+@import "../../partials/colors";
+
+.header{
+    background: $header;
+    display: flex;
+    align-items: center;
+    padding: 11px 13px;
+    div{
+      background: white;
+      opacity: .1;
+      height: 20px;
+      width: 50%;
+      max-width: 160px;
+      border-radius: 10px;
+    }
+  }

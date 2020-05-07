@@ -1,0 +1,31 @@
+@import "../../partials/colors";
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .875rem;
+}
+  
+.container{
+    background: $background;
+    border: 1px solid $outline;
+    border-radius: 5px;
+    padding: .875rem;
+    p{
+        margin: 0 0 1rem 0;
+    }
+}
+
+.message{
+    margin-bottom: 2rem;
+}
+  
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    button{
+      margin: .5rem 0 0 .5rem;
+    }
+}

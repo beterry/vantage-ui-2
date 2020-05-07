@@ -1,0 +1,20 @@
+@import "../../partials/colors";
+
+.tags{
+    display: flex;
+    align-items: center;
+    border: 1px solid $outline;
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;
+    svg{
+      margin-left: 1rem;
+    }
+    input{
+      border: none;
+      padding: .625rem 1rem;
+      flex-grow: 1;
+      font-size: .8125rem;
+      color: $text-gray;
+    }
+  }

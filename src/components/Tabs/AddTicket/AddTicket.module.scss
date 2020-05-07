@@ -1,0 +1,44 @@
+@import "../../../partials/colors";
+
+.tabContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 11.25rem;
+    flex-grow: 1;
+}
+
+.add{
+    padding: .875rem 2.5rem;
+    font-size: 1.125rem;
+    border: none;
+    width: 100%;
+    background: rgba(0,98,85,.5);
+    color: $background;
+}
+
+.close{
+    padding: .2rem;
+    border-radius: 50%;
+    position: absolute;
+    right: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.close:hover{
+    background: rgba(0,0,0,.1);
+}
+
+@media screen and (max-width: 25rem){
+    .add{
+        padding: .875rem 2.5rem .875rem .875rem;
+        span{
+            display: none;
+        }
+    }
+}
